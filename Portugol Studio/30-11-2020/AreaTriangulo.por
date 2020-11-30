@@ -13,7 +13,7 @@ programa{
 		leia(alturaTriangulo)
 
 		se(baseTriangulo > 0 e alturaTriangulo > 0){
-			areaTriangulo = baseTriangulo * alturaTriangulo
+			areaTriangulo = (baseTriangulo * alturaTriangulo)/2
 			escreva("\nA área do triangulo é: \n"+areaTriangulo)
 		}senao{
 			escreva("\nValores inválidos!\n")
