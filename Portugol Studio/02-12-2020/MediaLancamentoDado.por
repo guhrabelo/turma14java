@@ -19,10 +19,11 @@ programa{
 			se(contMaior < dado[x]){
 				contMaior = dado[x]
 			}
+			
 		}
 
 		para(inteiro x = 0; x < JOGARDADO; x++){
-			escreva(dado[x]," - ")
+			escreva(dado[x], " - ")
 			se(contMaior == dado[x]){
 				maiorRepete++		
 			}
@@ -39,7 +40,7 @@ programa{
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 777; 
+ * @POSICAO-CURSOR = 726; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

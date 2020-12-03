@@ -43,7 +43,7 @@ programa{
 		para(inteiro linha = 0; linha < 4; linha++){
 			para(inteiro coluna = 0; coluna < 6; coluna++){
 				matrizSub[linha][coluna] = (matriz[linha][coluna] - matriz2[linha][coluna])
-				escreva(matrizSoma[linha][coluna], " ")
+				escreva(matrizSub[linha][coluna], " ")
 			}
 			escreva("\n")
 		}
@@ -56,7 +56,7 @@ programa{
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 622; 
+ * @POSICAO-CURSOR = 1530; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {matriz, 10, 10, 6}-{matriz2, 10, 23, 7}-{matrizSoma, 10, 38, 10}-{matrizSub, 10, 56, 9};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
