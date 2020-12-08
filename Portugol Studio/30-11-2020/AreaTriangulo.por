@@ -13,11 +13,9 @@ programa{
 		leia(alturaTriangulo)
 
 		se(baseTriangulo > 0 e alturaTriangulo > 0){
-<<<<<<< HEAD
+
 			areaTriangulo = (baseTriangulo * alturaTriangulo) /2
-=======
-			areaTriangulo = (baseTriangulo * alturaTriangulo)/2
->>>>>>> 3090766c3c9e92c4611c13ca65090ad1eaa35789
+
 			escreva("\nA área do triangulo é: \n"+areaTriangulo)
 		}senao{
 			escreva("\nValores inválidos!\n")
@@ -29,7 +27,7 @@ programa{
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 537; 
+ * @POSICAO-CURSOR = 538; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

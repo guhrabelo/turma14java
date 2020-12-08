@@ -1,4 +1,4 @@
-package Lista1;
+package lista1;
 /*
 * Escreva  um sistema que leia três números inteiros e positivos (A, B, C) e calcule a seguinte expressão: 
 * d= r+s/2 onde r= (a+b)² e s= (b+c)²

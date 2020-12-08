@@ -1,4 +1,4 @@
-package Lista1;
+package lista1;
 /*
 * Faça um sistema que leia o tempo de duraçãode um evento em uma fábrica 
 * expressa em segundos e mostre-o expresso em horas, minutos e segundos. 

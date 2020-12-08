@@ -22,7 +22,7 @@ programa{
 			escreva("Nadador pertence a categoria Juvenil A!")
 		}senao se(idadeNadador >= 14 e idadeNadador <= 17){
 			escreva("Nadador pertence a categoria Juvenil B!")
-		}senao se(idadeNadador > 18){
+		}senao se(idadeNadador >= 18){
 			escreva("Nadador pertence a categoria dos Adultos!")
 		}senao {
 			escreva("Idade Inválida!")
@@ -34,7 +34,7 @@ programa{
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 491; 
+ * @POSICAO-CURSOR = 698; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
