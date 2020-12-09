@@ -12,6 +12,8 @@ public class Exercicio5 {
 		indicePoluicao = scan.nextDouble();
 		
 		calculaPoluicao(indicePoluicao);
+		
+		scan.close();
 	}
 	
 	public static void calculaPoluicao(double indice) { 		
@@ -24,7 +26,6 @@ public class Exercicio5 {
 		}else {
 			System.out.println("Número inválido");
 		}
-		
 		
 	}
 }

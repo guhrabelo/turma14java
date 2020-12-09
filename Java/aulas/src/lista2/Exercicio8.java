@@ -16,6 +16,8 @@ public class Exercicio8 {
 		numero = scan.nextInt();
 		
 		imprimeNumero(numero);
+		
+		scan.close();
 	}
 	
 	public static void imprimeNumero(int numero) {

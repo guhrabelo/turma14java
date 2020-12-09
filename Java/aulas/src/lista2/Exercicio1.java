@@ -21,6 +21,8 @@ public class Exercicio1 {
 		
 		System.out.println("Peso tomate: "+pesoTomates+ "Kg\nExcesso: "+calculaExcesso(pesoTomates)+
 							"Kg\nMulta: R$ "+calculaMulta(calculaExcesso(pesoTomates),pesoTomates));
+		
+		scan.close();
 	}
 	
 	public static double calculaExcesso(double peso) {

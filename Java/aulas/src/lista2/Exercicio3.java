@@ -36,6 +36,6 @@ public class Exercicio3 {
 					"\nQuadrado de "+num4+ " = "+Math.pow(num4, 2));	
 		}
 		
-		
+		scan.close();
 	}
 }

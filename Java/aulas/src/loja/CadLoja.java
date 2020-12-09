@@ -6,22 +6,24 @@ public class CadLoja {
 	public static void main(String[] args) {
 		int opcao, genero;
 		String nomeCliente;
+		char menu;
 		
 		Scanner scan = new Scanner(System.in);
 		
-		linhaTamanho();
-		pula();
-		System.out.println("||Saraiva Que Deu Certo||");
-		linhaTamanho();
-		pula();
-		pula();
-		System.out.print("[1] - COMPRAR PRODUTOS"+
-							"\n[2] - GERENCIAR ESTOQUE"+
-							"\n[3] - SAIR");
-		opcao = scan.nextInt();
 		
-		switch(opcao) {
-			case 1:
+		do {
+			linhaTamanho(80);
+			pula();
+			System.out.println("||Saraiva Que Deu Certo||");
+			linhaTamanho(80);
+			pula();
+			pula();
+			System.out.print("[1] - COMPRAR PRODUTOS"+
+								"\n[2] - GERENCIAR ESTOQUE"+
+								"\n[3] - SAIR");
+			opcao = scan.nextInt();
+			
+			if(opcao == 1) {
 				System.out.println("Compra de Produtos");
 				pula();
 				System.out.println("Nome do Cliente:");
@@ -29,24 +31,26 @@ public class CadLoja {
 				System.out.println("Gênero do Cliente:\n[1] Masculino\n[2] Feminino\n[3] Outros");
 				genero = scan.nextInt();
 				System.out.println(generoCliente(genero)+nomeCliente);
-				break;
-			case 2:
+			}else if(opcao == 2) {
 				pula();
 				System.out.println("Gerenciar Produtos");
 				pula();
 				System.out.println("Work in Progress");
-				break;
-			case 3:
+			}else if(opcao == 3) {
 				pula();
 				System.out.println("Sair");
 				pula();
 				System.out.println("Desculpe, pretendemos melhorar");
+				menu = 'N';
 				break;
-			default:
+			}else {
 				System.out.println("Opção Inválida");
-		}
-		
-		
+			}
+			
+			System.out.println("Deseja continuar?");
+			menu = scan.next().toUpperCase().charAt(0);
+		}while(menu == 'S');
+		scan.close();
 		
 	}
 	
@@ -64,8 +68,7 @@ public class CadLoja {
 		return cliente;
 	}
 	
-	public static void linhaTamanho() {
-		int tamanho = 80;
+	public static void linhaTamanho(int tamanho) {
 		for (int x = 1; x <= tamanho; x++) {
 			System.out.print("-");
 		}

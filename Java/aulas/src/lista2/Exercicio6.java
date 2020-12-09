@@ -11,6 +11,8 @@ public class Exercicio6 {
 		idadeNadador = scan.nextInt();
 		
 		classificaNadador(idadeNadador);
+		
+		scan.close();
 	}
 	
 	public static void classificaNadador(int idade) {

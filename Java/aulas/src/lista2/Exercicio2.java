@@ -38,6 +38,6 @@ public class Exercicio2 {
 							"\nSalário com Excedente: R$"+salarioFinal);
 		
 		
-		
+		scan.close();
 	}
 }

@@ -18,6 +18,8 @@ public class Exercicio7 {
 		alturaTri = scan.nextInt();
 		
 		System.out.println("Área do triangulo: "+calculaAreaTriangulo(baseTri, alturaTri));
+		
+		scan.close();
 	}
 	
 	public static int calculaAreaTriangulo(int base, int altura) {
