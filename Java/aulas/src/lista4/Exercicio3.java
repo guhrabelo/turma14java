@@ -22,7 +22,7 @@ public class Exercicio3 {
 		System.out.println("Primeira Matriz");
 		for(int i = 0; i < 4; i++) {
 			for(int j = 0; j < 6; j++) {
-				matriz[i][j] = sorteia.nextInt(10);
+				matriz[i][j] = sorteia.nextInt(9)+1;
 				System.out.print(matriz[i][j]+" \t");
 			}
 			System.out.println();
@@ -32,7 +32,7 @@ public class Exercicio3 {
 		System.out.println("Segunda Matriz");
 		for(int i = 0; i < 4; i++) {
 			for(int j = 0; j < 6; j++) {
-				matriz2[i][j] = sorteia.nextInt(10);
+				matriz2[i][j] = sorteia.nextInt(9)+1;
 				System.out.print(matriz2[i][j]+" \t");
 			}
 			System.out.println();
