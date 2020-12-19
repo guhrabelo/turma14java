@@ -6,6 +6,7 @@ public class Produto {
 	private String codigo;
 	private double precoUnitario;
 	private int qtdeProdutoEstoque;
+	private int retirado;
 	
 	public Produto(String nomeProduto, String codigo, double precoUnitario, int qtdeProdutoEstoque) {
 		super();
@@ -26,18 +27,32 @@ public class Produto {
 	public String getCodigo() {
 		return codigo;
 	}
-
+	
+	
 	public void setCodigo(String codigo) {
 		this.codigo = codigo;
 	}
+	
+	
 
 	public double getPrecoUnitario() {
 		return precoUnitario;
 	}
-
 	public void setPrecoUnitario(double precoUnitario) {
 		this.precoUnitario = precoUnitario;
 	}
+	
+	public int getRetirado() {
+		return this.retirado;
+	}
+	
+	public void setRetirado(int retirado) {
+		if (testaEstoque(retirado)){
+			this.retirado = retirado;
+		}
+	}
+
+	
 
 	public int getQtdeProdutoEstoque() {
 		return qtdeProdutoEstoque;
@@ -77,11 +92,12 @@ public class Produto {
 			return qtdeVendida * this.precoUnitario;
 		} 
 		else {
+			System.out.println();
 			System.out.println("Venda negada!!!");
 			return 0;
 		}
 		
 	}
 	
-	
+		
 }
